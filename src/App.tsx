@@ -1,4 +1,5 @@
 import "./index.css";
+import vid from "./assets/arch.mp4"
 
 // Jump into the CSS file to see the magic ☝️
 // The Tailwind code is only here for the non-relevant pieces.
@@ -49,7 +50,7 @@ function App() {
 
         <div className="video-container">
           <video
-            src="/img/scroll-driven-path-animations/ipad-video.mp4"
+            src={vid}
             autoPlay
             muted
             playsInline
