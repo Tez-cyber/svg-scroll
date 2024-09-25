@@ -1,5 +1,5 @@
 import "./index.css";
-import vid from "./assets/arch.mp4"
+import vid from "./assets/arch-2.mp4"
 
 // Jump into the CSS file to see the magic ☝️
 // The Tailwind code is only here for the non-relevant pieces.
