@@ -21,7 +21,7 @@
 }
 .svg-container path {
   stroke-dasharray: 9300;
-  stroke-dashoffset: 0;
+  /* stroke-dashoffset: 0; */
 }
 
 .video-container {
@@ -53,13 +53,6 @@
     opacity: 1
   }
 }
-.text-container > p {
-  margin-bottom: 20vh;
-  opacity: 0;
-  animation: fade-in both linear;
-  animation-timeline: view();
-  animation-range: entry 10% cover 90%;
-}
 
 @supports(animation-timeline: view()) {
   .text-container > p {
@@ -73,6 +66,6 @@
     stroke-dashoffset: 9300;
     animation: paint-line linear both;
     animation-timeline: view();
-    animation-range: entry 25% entry 60%;
+    animation-range: entry 30% entry 80%;
   }
 }
